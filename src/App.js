@@ -12,7 +12,7 @@ import Register from './Pages/Register';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" basename="/phoneandphones/">
       <Router>
       <Header/>
         <Switch>
