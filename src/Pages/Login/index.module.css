@@ -64,3 +64,14 @@
 .loginWrapper a:hover{
     cursor: pointer;
 }
+@media screen and (max-width:900px) {
+    .loginWrapper h1 {
+       font-size: 24px;
+    }
+    .loginWrapper form {
+        width: 80%;
+    }
+    .formWrapper p, .formWrapper a {
+       font-size: 12px;
+    }
+}
