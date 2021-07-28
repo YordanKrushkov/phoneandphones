@@ -12,8 +12,8 @@ import Register from './Pages/Register';
 
 function App() {
   return (
-    <div className="App" basename="/phoneandphones/">
-      <Router>
+    <div className="App" >
+      <Router basename="/phoneandphones/">
       <Header/>
         <Switch>
           <Route exact path='/' component={ Home } />
