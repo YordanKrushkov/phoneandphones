@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/phoneandphones/static/css/main.0de5bd3d.chunk.css",
-    "main.js": "/phoneandphones/static/js/main.122552b7.chunk.js",
-    "main.js.map": "/phoneandphones/static/js/main.122552b7.chunk.js.map",
+    "main.js": "/phoneandphones/static/js/main.a7aba514.chunk.js",
+    "main.js.map": "/phoneandphones/static/js/main.a7aba514.chunk.js.map",
     "runtime-main.js": "/phoneandphones/static/js/runtime-main.d6cfbd4b.js",
     "runtime-main.js.map": "/phoneandphones/static/js/runtime-main.d6cfbd4b.js.map",
     "static/js/2.28aa83fb.chunk.js": "/phoneandphones/static/js/2.28aa83fb.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d6cfbd4b.js",
     "static/js/2.28aa83fb.chunk.js",
     "static/css/main.0de5bd3d.chunk.css",
-    "static/js/main.122552b7.chunk.js"
+    "static/js/main.a7aba514.chunk.js"
   ]
 }
