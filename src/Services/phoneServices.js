@@ -1,6 +1,6 @@
 import getCookie from './cookies'
 const deletePhone = (id) => {
-    fetch('http://localhost:4000/phones/delete', {
+    fetch('https://phonesandphones.herokuapp.com/phones/delete', {
         method: 'POST',
         body: JSON.stringify({ id: id }),
         headers: {

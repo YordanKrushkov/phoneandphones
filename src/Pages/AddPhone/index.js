@@ -40,7 +40,7 @@ const AddPhone = (props) => {
     useEffect(() => {
         if (props.location.state) {
             let id = props.location.state.id
-            fetch(`http://localhost:4000/phones/${id}`)
+            fetch(`https://phonesandphones.herokuapp.com/phones/${id}`)
                 .then(res => res.json())
                 .then(data => {
                     setPhone(data);
@@ -71,7 +71,7 @@ const AddPhone = (props) => {
         let endpoint = !edit ? '/addphone' : "/update";
 
         if (!err) {
-            fetch(`http://localhost:4000/phones${endpoint}`, {
+            fetch(`https://phonesandphones.herokuapp.com/phones${endpoint}`, {
                 method: "POST",
                 body: JSON.stringify({ phone: phone, image: image.img }),
                 headers: {

@@ -6,7 +6,7 @@ import useFetch from '../../Hooks/useFetch';
 
 const Phones = () => {
 
-    const { phones } = useFetch('http://localhost:4000/phones');
+    const { phones } = useFetch('https://phonesandphones.herokuapp.com/phones');
     const [loading, setLoading] = useState(false)
     useEffect(() => {
         setLoading(true)

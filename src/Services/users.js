@@ -1,7 +1,7 @@
 import getCookie from './cookies';
 
 const userVerify = async () => {
-    let promise = await fetch('http://localhost:4000/user/verify', {
+    let promise = await fetch('https://phonesandphones.herokuapp.com/user/verify', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

@@ -47,7 +47,7 @@ const Register = () => {
             setLoading(false);
             return;
         } else {
-            await authenticate('http://localhost:4000/user/register',
+            await authenticate('https://phonesandphones.herokuapp.com/user/register',
                 user,
                 user => onSuccsess(user),
                 (e) => onError()

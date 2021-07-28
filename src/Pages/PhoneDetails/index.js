@@ -14,7 +14,7 @@ const PhoneDetails = () => {
     const { isAuthenticated,userEmail } = useContext(AuthContext);
     const id = history.location.pathname.split('phone/')[1];
     const [order,setOrder]=useState(false);
-    const {phones}=useFetch(`http://localhost:4000/phones/${id}`);
+    const {phones}=useFetch(`https://phonesandphones.herokuapp.com/phones/${id}`);
     const [loading,setLoading]=useState(false);
 
     useEffect(()=>{

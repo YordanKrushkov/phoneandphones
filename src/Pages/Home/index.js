@@ -1,5 +1,5 @@
 import styles from './index.module.css';
-import {useRef,useEffect,useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import useFetch from '../../Hooks/useFetch';
 import Loader from '../../Components/Loader';
 import SingleCard from '../../Components/SingleCard';
@@ -7,19 +7,19 @@ import { RiArrowLeftSFill, RiArrowRightSFill } from "react-icons/ri";
 
 const Home = () => {
 
-    const { phones } = useFetch('http://localhost:4000/phones');
+    const { phones } = useFetch('https://phonesandphones.herokuapp.com/phones');
     const ref = useRef(null);
-    const [loading,setLoading]=useState(false)
+    const [loading, setLoading] = useState(false)
 
     const scroll = (scrollOffset) => {
         ref.current.scrollLeft += scrollOffset
     };
-    useEffect(()=>{
+    useEffect(() => {
         setLoading(true)
-        if(phones){
+        if (phones) {
             setLoading(false)
         }
-    },[phones])
+    }, [phones])
     return (
         <div className={ styles.homeWrapper }>
             <div className={ styles.heroBanner }>
