@@ -16,7 +16,7 @@ React JS, HTML5, CSS3
 <h4>Backend</h4>
 Node.JS, Express, Mongo DB, Mongoose.
 
-<a href="https://github.com/YordanKrushkov/back-end-properties">Back End</a>
+<a href="https://github.com/YordanKrushkov/phone-catalogue-backend">Back End</a>
 
 <h4>API's</h4>
 Cloudinary
