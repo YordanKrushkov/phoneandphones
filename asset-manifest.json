@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phoneandphones/static/css/main.0de5bd3d.chunk.css",
+    "main.js": "/phoneandphones/static/js/main.122552b7.chunk.js",
+    "main.js.map": "/phoneandphones/static/js/main.122552b7.chunk.js.map",
+    "runtime-main.js": "/phoneandphones/static/js/runtime-main.d6cfbd4b.js",
+    "runtime-main.js.map": "/phoneandphones/static/js/runtime-main.d6cfbd4b.js.map",
+    "static/js/2.28aa83fb.chunk.js": "/phoneandphones/static/js/2.28aa83fb.chunk.js",
+    "static/js/2.28aa83fb.chunk.js.map": "/phoneandphones/static/js/2.28aa83fb.chunk.js.map",
+    "static/js/3.e6d5e778.chunk.js": "/phoneandphones/static/js/3.e6d5e778.chunk.js",
+    "static/js/3.e6d5e778.chunk.js.map": "/phoneandphones/static/js/3.e6d5e778.chunk.js.map",
+    "index.html": "/phoneandphones/index.html",
+    "static/css/main.0de5bd3d.chunk.css.map": "/phoneandphones/static/css/main.0de5bd3d.chunk.css.map",
+    "static/js/2.28aa83fb.chunk.js.LICENSE.txt": "/phoneandphones/static/js/2.28aa83fb.chunk.js.LICENSE.txt",
+    "static/media/index.module.css": "/phoneandphones/static/media/home1.da863922.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6cfbd4b.js",
+    "static/js/2.28aa83fb.chunk.js",
+    "static/css/main.0de5bd3d.chunk.css",
+    "static/js/main.122552b7.chunk.js"
+  ]
+}
