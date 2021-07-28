@@ -1,6 +1,6 @@
 <h1>Phone & Phones</h1>
 
-<!-- <a href="https://yordankrushkov.github.io/properties/"><h2>Rent Buy Sell</h2></a> -->
+<a href="https://yordankrushkov.github.io/phoneandphones/"><h2>Phone & Phones</h2></a>
 
 
 <h4>Screenshots</h4>
