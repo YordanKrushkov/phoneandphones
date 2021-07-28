@@ -1,0 +1,22 @@
+.phonesWrapper {
+    height: 100%;
+}
+.phonesList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 90%;
+    align-items: center;
+    justify-content: baseline;
+}
+
+@media screen and (max-width: 900px) {
+    .phonesList {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px auto;
+        align-items: center;
+    }
+}

@@ -1,0 +1,84 @@
+.addPhoneWrapper h1 {
+    color: #430d29;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+.addPhoneWrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+.addPhoneWrapper form div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.addPhoneWrapper form div input {
+    width: 48%;
+    border-radius: 5px;
+    margin: 5px;
+    border:none;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+
+}
+.addPhoneWrapper form textarea {
+    width: 99%;
+    min-height: 100px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    outline: none;
+    resize: none;
+}
+.addPhoneWrapper form p {
+margin: 0;
+font-size: 12px;
+text-transform: uppercase;
+}
+.addPhoneWrapper button {
+    background-color: #430d29;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    padding:10px;
+    outline: none;
+    border-radius: 5px;
+}
+.openImage{
+    display: flex;
+    align-items: center;
+    margin:10px 5px;
+}
+.openImage:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.openImage svg{
+    color: #430d29;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.hiddenInput{
+    display: none;
+}
+
+.error{
+    color: red !important;
+}
+
+@media screen and (max-width: 900px) {
+    .addPhoneWrapper form {
+        width: 80%;
+    }
+    .addPhoneWrapper button {
+       
+        font-size: 12px;
+   
+    }
+}

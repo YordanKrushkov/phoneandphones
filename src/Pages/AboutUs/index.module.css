@@ -1,0 +1,25 @@
+.aboutUsWrapper {
+    width: 50%;
+    margin: 40px auto;
+    height: 100%;
+}
+
+.aboutUsWrapper h1 {
+    font-style: oblique;
+    color: #430d29;
+    font-size: 46px;
+}
+.aboutUsWrapper p {
+    margin-top: 80px;
+}
+@media screen and (max-width: 800px) {
+    .aboutUsWrapper {
+        width: 90%;
+    }
+    .aboutUsWrapper h1 {
+        font-size: 32px;
+    }
+    .aboutUsWrapper p {
+        font-size: 12px;
+    }
+}

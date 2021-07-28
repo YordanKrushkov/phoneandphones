@@ -1,0 +1,42 @@
+.headerWrapper {
+    background-color: #430d29;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    box-shadow: 0px 0 10px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1;
+    min-height: 50px;
+}
+.headerWrapper h2 {
+    margin: 0;
+    align-self: center;
+    color: white;
+    padding-left: 20px;
+    font-style: oblique;
+}
+.headerWrapper ul {
+    display: flex;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+}
+.headerWrapper li {
+    list-style: none;
+    width: 100%;
+
+}
+.headerWrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0;
+}
+@media screen and (max-width:1200px) {
+    .headerWrapper ul {
+        width: 60%;
+    }
+}
