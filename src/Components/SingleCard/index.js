@@ -1,6 +1,5 @@
 import styles from './index.module.css';
-import img from '../../Assets/home1.png'
-import { Image, Transformation } from 'cloudinary-react';
+import { Image } from 'cloudinary-react';
 import React from 'react'
 import { useHistory } from 'react-router-dom';
 

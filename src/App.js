@@ -17,7 +17,7 @@ function App() {
         <Router basename="/phoneandphones/">
           <Header />
           <Switch>
-            <Route exact path='/' component={ Home } />
+            <Route exact path='/' data-testid='home' component={ Home } />
             <Route path='/about' component={ AboutUs } />
             <Route path='/login' component={ Login } />
             <Route path='/register' component={ Register } />
