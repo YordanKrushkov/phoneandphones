@@ -9,23 +9,25 @@ import Login from './Pages/Login';
 import PhoneDetails from './Pages/PhoneDetails';
 import Phones from './Pages/Phones';
 import Register from './Pages/Register';
-
+import ErrorBoundary from './Components/ErrorBoundary';
 function App() {
   return (
     <div className="App" >
-      <Router basename="/phoneandphones/">
-      <Header/>
-        <Switch>
-          <Route exact path='/' component={ Home } />
-          <Route path='/about' component={ AboutUs } />
-          <Route path='/login' component={Login}/>
-          <Route path='/register' component={Register}/>
-          <Route path="/add" component={AddPhone} />
-          <Route path='/phones' component={Phones} />
-          <Route path='/phone/:id' component={PhoneDetails} />
-        </Switch>
-        <Footer/>
-      </Router>
+      <ErrorBoundary>
+        <Router basename="/phoneandphones/">
+          <Header />
+          <Switch>
+            <Route exact path='/' component={ Home } />
+            <Route path='/about' component={ AboutUs } />
+            <Route path='/login' component={ Login } />
+            <Route path='/register' component={ Register } />
+            <Route path="/add" component={ AddPhone } />
+            <Route path='/phones' component={ Phones } />
+            <Route path='/phone/:id' component={ PhoneDetails } />
+          </Switch>
+          <Footer />
+        </Router>
+      </ErrorBoundary>
     </div>
   );
 }

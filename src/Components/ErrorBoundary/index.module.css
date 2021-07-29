@@ -1,0 +1,9 @@
+.wrong{
+    color: #430d29;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 300px;
+    width: 60% ;
+    margin: 80px auto;
+    border:10px solid #430d29
+}

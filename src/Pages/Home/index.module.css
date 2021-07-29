@@ -54,6 +54,7 @@
     padding-left: 10px;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    min-height: 300px;
 }
 .cardWrapper::-webkit-scrollbar {
     display: none;
